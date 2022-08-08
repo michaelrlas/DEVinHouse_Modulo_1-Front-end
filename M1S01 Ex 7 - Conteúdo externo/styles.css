@@ -1,0 +1,32 @@
+body {
+  background-color: #febf01;
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 20px;
+  color: #60200b;
+  text-align: center;
+  background-image: url('cortica.jpg');
+  background-repeat: no-repeat;
+}
+
+p {
+  font-size: 14px;
+}
+
+.botao {
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
