@@ -1,0 +1,1 @@
+Instalei o Postman e fiz o get no endereço apontado no exercício. Ele retornou a mesma informação com status 200 que é a resposta de sucesso. O arquivo esta num formato json utilizado para transferencia de dados entre aplicações, onde as informações vem estruturadas em pares de chave e valor.
