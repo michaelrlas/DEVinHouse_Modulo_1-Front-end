@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Cronometro from './pages/cronometro';
 import StarWars from './pages/cardstar1';
+import ListaLivros from './pages/ex01reacthook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Cronometro /> */}
-    <StarWars />
+    {/* <StarWars /> */}
+    <ListaLivros />
   </React.StrictMode>
 );
 
