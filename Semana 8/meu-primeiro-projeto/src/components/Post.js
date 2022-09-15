@@ -1,4 +1,5 @@
 import Cabecalho from './Cabecalho';
+import '../index.css';
 
 export default function Post({
   fotoPerfil,
@@ -20,7 +21,7 @@ export default function Post({
       />
       <div>
         <span>{comentario}</span>
-        <img src={fotoPublicacao} />
+        <img className="mainImage" src={fotoPublicacao} alt="hamburguer" />
         <img src={likes}></img>
         <span>{coments}</span>
         <p>{share}</p>

@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+flex > div {
+  flex: 1 1 400px;
+  margin: 10px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+#boxqtt {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#boxqtt > div {
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 10px;
+  flex: 0 1 60px;
+  background-color: #fff;
+  box-shadow: 3px 3px 5px #848484;
+}
+
+#boxsearch {
+  margin: 10px 15px;
+  padding: 5px;
+}
+
+#boxinput {
+  border-radius: 10px;
+  background-color: #a4a4a4;
+  color: black;
+  padding: 40px;
+}
+
+.block {
+  width: 500px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
+input,
+textarea,
+select {
+  margin-bottom: 10px;
+}
+
+.cards {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 3px 3px 5px #848484;
+}
+
+#boxqtt p,
+h5 {
+  margin-top: 5px;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+#boxcards {
+  overflow-y: scroll;
+  max-height: 500px;
+}
