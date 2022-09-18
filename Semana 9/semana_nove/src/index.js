@@ -8,6 +8,7 @@ import StarWars from './pages/cardstar1';
 import ListaLivros from './pages/ex01reacthook';
 import ChangeConsole from './pages/ex02useeffect';
 import ClickCounter from './pages/ex03useeffectcontar';
+import ChangeTitle from './pages/ex04title';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     {/* <StarWars /> */}
     {/* <ListaLivros /> */}
     {/* <ChangeConsole /> */}
-    <ClickCounter />
+    {/* <ClickCounter /> */}
+    <ChangeTitle />
   </React.StrictMode>
 );
 
