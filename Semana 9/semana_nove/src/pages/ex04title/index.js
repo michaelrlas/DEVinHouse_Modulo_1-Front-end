@@ -23,8 +23,11 @@ export default function ChangeTitle() {
 
   return (
     <div>
+      <br />
       <span>Botão clicado {button}</span>
+
       <div>
+        <br />
         <button onClick={() => setTitle('Título 1')}>Título 1</button>
         <button onClick={() => setTitle('Título 2')}>Título 2</button>
       </div>
