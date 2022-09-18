@@ -7,6 +7,7 @@ import Cronometro from './pages/cronometro';
 import StarWars from './pages/cardstar1';
 import ListaLivros from './pages/ex01reacthook';
 import ChangeConsole from './pages/ex02useeffect';
+import ClickCounter from './pages/ex03useeffectcontar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,8 @@ root.render(
     {/* <Cronometro /> */}
     {/* <StarWars /> */}
     {/* <ListaLivros /> */}
-    <ChangeConsole />
+    {/* <ChangeConsole /> */}
+    <ClickCounter />
   </React.StrictMode>
 );
 
