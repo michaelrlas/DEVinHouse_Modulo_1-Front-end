@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Cronometro from './pages/cronometro';
 import StarWars from './pages/cardstar1';
 import ListaLivros from './pages/ex01reacthook';
+import ChangeConsole from './pages/ex02useeffect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,8 @@ root.render(
     {/* <App /> */}
     {/* <Cronometro /> */}
     {/* <StarWars /> */}
-    <ListaLivros />
+    {/* <ListaLivros /> */}
+    <ChangeConsole />
   </React.StrictMode>
 );
 
