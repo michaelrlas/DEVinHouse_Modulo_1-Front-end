@@ -8,11 +8,8 @@ export default function ChangeTitle() {
 
   const [button, setButton] = useState();
 
+  // lógica para mostrar qual botão é clicado
   useEffect(() => {
-    //   console.log({ title });
-    //   document.title = title;
-    // }, [title]);
-
     document.title = title;
     if (title === 'Título 1') {
       setButton('Título 1');
@@ -25,7 +22,6 @@ export default function ChangeTitle() {
     <div>
       <br />
       <span>Botão clicado {button}</span>
-
       <div>
         <br />
         <button onClick={() => setTitle('Título 1')}>Título 1</button>
@@ -33,5 +29,4 @@ export default function ChangeTitle() {
       </div>
     </div>
   );
-  // <button onClick={() => setChange(change + 1)}>{change}</button>;
 }
