@@ -9,6 +9,7 @@ import ListaLivros from './pages/ex01reacthook';
 import ChangeConsole from './pages/ex02useeffect';
 import ClickCounter from './pages/ex03useeffectcontar';
 import ChangeTitle from './pages/ex04title';
+import ClickFocus from './pages/ex05useref';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +20,8 @@ root.render(
     {/* <ListaLivros /> */}
     {/* <ChangeConsole /> */}
     {/* <ClickCounter /> */}
-    <ChangeTitle />
+    {/* <ChangeTitle /> */}
+    <ClickFocus />
   </React.StrictMode>
 );
 
